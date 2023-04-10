@@ -19,7 +19,7 @@ GRAPH* new_graph(int order) {
 	int i;
 	for (i = 0; i < order; i++) {
 		p->nodes[i] = malloc(sizeof(GNODE)); // create a GNOGE object
-		p->nodes[i]->nid = i; // set node id to be i
+		p->nodes[i]->nid = i; // set node id to be 
 		p->nodes[i]->neighbor = NULL; // Initialize neighbor linked list
 	}
 	return p;
